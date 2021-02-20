@@ -14,6 +14,8 @@ services:
       - BR=America/Sao_Paulo
       - PUBLIC=1
       - AUTO_UPDATE=0
+      - PUID: 1000
+      - PGID: 1000
     volumes:
     - ./valheim/saves:/home/steam/.config/unity3d/IronGate/Valheim
     - ./valheim/server:/home/steam/valheim
